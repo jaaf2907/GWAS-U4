@@ -1,0 +1,31 @@
+PLINK v2.0.0-a.7.11 64-bit (1 Oct 2026)
+Options in effect:
+  --export vcf
+  --map datasets/rice/sativas413.map
+  --out datasets/rice/sativas413
+  --ped datasets/rice/sativas413.ped
+
+Hostname: DESKTOP-KMQ612S
+Working directory: C:\Users\LENOVO\git\lectures
+Start time: Sat Oct 10 12:39:06 2026
+
+Random number seed: 1791653946
+32440 MiB RAM detected; reserving 16220 MiB for main workspace.
+Using up to 32 threads (change this with --threads).
+--pedmap: 36901 variants in .map file.
+--pedmap: 413 samples present, genotypes extracted to
+datasets/rice/sativas413-temporary.bed.smaj .
+Transposing sample-major .bed to datasets/rice/sativas413-temporary.pgen , and
+setting major alleles to provisional-REF.
+Transpose complete.
+--pedmap: datasets/rice/sativas413-temporary.pgen +
+datasets/rice/sativas413-temporary.pvar +
+datasets/rice/sativas413-temporary.psam written. .bed.smaj and .fam.tmp
+temporary files deleted.
+413 samples (0 females, 0 males, 413 ambiguous; 413 founders) loaded from
+datasets/rice/sativas413-temporary.psam.
+36901 variants loaded from datasets/rice/sativas413-temporary.pvar.
+Note: No phenotype data present.
+Error: Failed to open datasets/rice/sativas413.vcf : Invalid argument.
+
+End time: Sat Oct 10 12:39:06 2026
